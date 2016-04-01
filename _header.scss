@@ -1,0 +1,44 @@
+$def-size: 18px;
+$tb-height: 50px;
+$bkd-color: white;
+$def-margin: 20px;
+$def-border: 1px solid orange;
+$def-color: gray;
+$def-font: palatino;
+
+.tab-bar {
+    opacity: 0.9;
+    position: fixed;
+    border-bottom: $def-border;
+    background-color: $bkd-color;
+    height: $tb-height;
+    left: 0;
+    right: 0;
+}
+.tabSpan {
+    float: right;
+    margin: $def-margin;
+    color: orange;
+    font-family: courier;
+    font-weight: bold;
+    font-size: $def-size;
+}
+
+#headimg {
+    left: 0;
+    right: 0;
+    border-bottom: $def-border;
+}
+
+.links {
+color: orange;
+text-decoration: none;
+}
+
+.white:link {
+ @extend .links;
+}
+
+.white:visited  {
+ @extend .links;
+}

@@ -1,0 +1,59 @@
+@import 'header';
+
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+.def-fonts {
+   font-family: $def-font;
+   color: $def-color;
+}
+
+@mixin format-body($size) {
+
+   @extend .def-fonts;
+   @if $size == big {
+      font-size: $def-size * 2;  
+   }
+   @if $size == med {
+      font-size: $def-size;  
+   }
+   @if $size == small {
+      font-size: $def-size - 2;  
+   }    
+}
+
+#blog {
+   float: left;
+   width: 70%;
+   padding: $def-margin;
+   display: inline;
+
+   article {
+      @include format-body(small);   
+   }
+
+   h1 {
+      display: inline;
+      @include format-body(big);
+   }
+
+   h2 {
+      display: inline;
+      @include format-body(small);
+   }
+}
+
+#side-bar {
+   padding: $def-margin;
+   float: right;
+   width: 20%;
+   h1{  
+      @include format-body(med); 
+   }
+   aside {
+      @include format-body(small);
+   }
+}
+

@@ -1,0 +1,62 @@
+@import 'header';
+
+html, body {
+   margin: 0;
+padding: 0;
+}
+
+#lower {
+   
+}
+
+.def-fonts {
+  font-family: $def-font;
+   color: $def-color;
+}
+
+@mixin format-body($size) {
+
+    @extend .def-fonts;
+    @if $size == big {
+      font-size: $def-size * 2;  
+    }
+    @if $size == med {
+      font-size: $def-size;  
+    }
+    @if $size == small {
+      font-size: $def-size - 2;  
+    }    
+}
+
+#blog {
+    float: right;
+    width: 78%;
+    padding: $def-margin;
+    border-left: 1px solid orange;
+    display: inline;
+
+article {
+  @include format-body(med);   
+}
+
+h1 {
+   display: inline;
+   @include format-body(big);
+}
+
+h2 {
+     display: inline;
+    @include format-body(small);
+}
+}
+
+#sideBar {
+  float: left;
+  width: 22%;
+  padding: $def-margin;
+  display: inline;
+}
+
+aside {
+ @extend .def-fonts;
+}

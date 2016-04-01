@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>This Little Girl Wrote Code</title>
+</head>
+  <body>
+      <div class="tab-bar">
+	<span class="tabSpan">
+	  <a href="mainpage.html" class="white">Home</a></span>
+        <span class="tabSpan">About</span>
+        <span class="tabSpan">Contact</span>
+      </div>
+    <div id="lower">
+      <img src="/Users/wkshumway/sassdemo/ellecode.svg"/ alt="ellecode"
+	   id="headimg">      
+      <div id="blog">
+	<h1>Art</h1>
+	<h2>3.29.16</h2></br>
+	<article role="main">Going to a Ririe-Woodbury performance on campus tod
+	  ay was a keen idea.
+
+	  There was a piece called "50 Years" that was loosely based on how Utah
+	  wasn't given statehood for 50 years.
+	  There was a lot of odd chanting in it and no music. It looked like dis
+	  heveled nomads entertaining themselves and attempting to make themselv
+	  es comfortable for fifty years.
+	  Its oddity was the talk of the people leaving the theater.
+
+	  Somehow it smoothed out bumps in my heart.
+
+	  I feel a lot better.
+	  It was worth it, even though I finished my Chinese Remainder Theorem p
+	  roject for Discrete Math at one.
+
+      </article></div>
+      <div id="sideBar"><aside role="complementary">Hallo!</aside></div>
+    </div>
+  </body>
+</html>
+

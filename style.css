@@ -1,0 +1,58 @@
+.tab-bar {
+  opacity: 0.9;
+  position: fixed;
+  border-bottom: 1px solid orange;
+  background-color: white;
+  height: 50px;
+  left: 0;
+  right: 0; }
+
+.tabSpan {
+  float: right;
+  margin: 20px;
+  color: orange;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 18px; }
+
+#headimg {
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid orange; }
+
+.links, .white:link, .white:visited {
+  color: orange;
+  text-decoration: none; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.def-fonts, #blog article, #blog h1, #blog h2, #side-bar h1, #side-bar aside {
+  font-family: palatino;
+  color: gray; }
+
+#blog {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  display: inline; }
+  #blog article {
+    font-size: 16px; }
+  #blog h1 {
+    display: inline;
+    font-size: 36px; }
+  #blog h2 {
+    display: inline;
+    font-size: 16px; }
+
+#side-bar {
+  padding: 20px;
+  float: right;
+  width: 20%; }
+  #side-bar h1 {
+    font-size: 18px; }
+  #side-bar aside {
+    font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
